@@ -293,7 +293,7 @@ margin:20px 0px 5px 0px;
   background-image: linear-gradient(rgba(33, 32, 32, 0.758),rgba(39, 12, 12, 0.851));
 }
 /* media */
-@media  all and (max-width: 951px) {
+@media  all and (max-width:768px) {
  .contactsMain, .aboutUsDetail {
   width: 90%;
  }
@@ -301,7 +301,7 @@ margin:20px 0px 5px 0px;
   width: 90%;
  }
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 768px) {
  .main{
   width: 90%;
  }
@@ -314,12 +314,12 @@ margin:20px 0px 5px 0px;
   padding: 0;
  }
 }
-@media all and (max-width: 400px) {
+@media all and (max-width: 768px) {
   .playlistMain{
     width: 90%;
   }
 }
-@media all and (max-width: 300px) {
+@media all and (max-width: 768px) {
   .aboutUsMain{
     width: 90%;
   }
