@@ -1,0 +1,326 @@
+body{
+   display: none;
+    margin: 0;
+    padding: 0;
+    background: url(../images/background2.png) no-repeat fixed center;
+    background-size: cover;
+}
+.header {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .header img{
+    height: 15vw;
+  }
+  h1{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 15px 10px;
+     border-radius: 25px;
+     background-image: linear-gradient(to bottom right,rgba(189, 34, 224, 0.829),rgba(221, 24, 198, 0.563)); 
+      z-index: 4;
+      color: rgb(255, 255, 255);
+      text-shadow: 2px 2px 5px rgb(81, 208, 210);
+      font-size: 8vw; 
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  .navigation ul{
+    list-style-type: none;
+    width: 7%;
+    position: fixed;
+    z-index: 7;
+    left: 1px;
+    bottom: 1px;
+  }
+  .navigation img{
+     width: 50px;
+  }
+  .navigation img:hover,.active img{
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom right,rgba(189, 34, 224, 0.829),rgba(221, 24, 198, 0.563));
+  }
+  #go-top {
+    position: fixed; 
+    bottom: 25px; 
+    right: 70px;
+    text-align: center;
+    cursor:pointer; 
+    display:none;
+    width: 80px;
+    height: 30px;
+    background: rgba(221, 24, 198, 0.756);
+    line-height: 30px;
+    border-radius: 20px;
+  }
+  
+  #go-top:hover {
+    background: rgba(181, 20, 162, 0.753);
+    color: #fff;
+  }
+  .main{
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    color: #fff;
+    display:flex;
+   flex-flow: column nowrap;
+   align-items: center;
+   justify-content: space-between;
+   background-image: linear-gradient(to bottom right,rgba(189, 34, 224, 0.829),rgba(221, 24, 198, 0.563));
+  border-radius: 25px;
+  }
+  #hello {
+    padding:10px;
+    border-radius: 25vmin;
+  }
+  #vaporSpecial{
+    text-align: center;
+  }
+ .main img{
+  object-fit: contain;
+  width: 20vw;
+  float: left;
+  left: 20px;
+ }
+.main div{
+width: 93%;
+background-image: linear-gradient(rgba(0, 0, 0, 0.829),rgba(0, 0, 0, 0.593));
+border-radius: 25px;
+padding: 5px 10px;
+margin:20px 0px 5px 0px;
+}
+.main div:hover{
+  background-image: linear-gradient(to left,rgba(65, 63, 63, 0.829),rgba(30, 28, 28, 0.593));
+}
+.footer {
+  width: 100%;
+  color: rgb(93, 90, 90);
+  text-align: center;
+  padding: 5px 0;
+  background-image: linear-gradient(rgba(33, 32, 32, 0.758),rgba(39, 12, 12, 0.851));
+}
+/*CONTACTS*/
+.contactsMain {
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  color:#fff;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(to bottom right,rgba(189, 34, 224, 0.829),rgba(221, 24, 198, 0.563));
+  border-radius: 25px;
+}
+.contactsMain div{
+  width: 47%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.829),rgba(0, 0, 0, 0.593));
+  border-radius: 25px;
+  padding: 5px 10px;
+  margin:20px 0px 20px 0px;
+}
+.contactsMain img{
+  width: 75%;
+  padding: 0 10% 3% 10%;
+  border-radius: 25vmin;
+}
+::placeholder{
+  color: #fff;
+  font-style:italic;
+}
+.contactsMain input,
+.contactsMain textarea {
+  background-image: linear-gradient(to bottom right,rgba(189, 34, 224, 0.829),rgba(221, 24, 198, 0.563));
+  border:2px double rgb(255, 192, 253);
+  border-radius: 10px;
+}
+#submit{
+  cursor: pointer;
+  width: 100%;
+  padding: 0 10px 5px 10px;
+  font-size: large;
+  color:#fff;
+  background-image: linear-gradient(to bottom right,rgba(189, 34, 224, 0.829),rgba(221, 24, 198, 0.563)) ;
+}
+#submit:hover,
+.contactsMain input:hover,
+.contactsMain textarea:hover{
+  cursor: pointer;
+  background-image: linear-gradient(to bottom right,rgba(139, 25, 165, 0.829),rgba(182, 19, 163, 0.563)) 
+}
+.contactsMain div:hover{
+  background-image: linear-gradient(to left,rgba(65, 63, 63, 0.829),rgba(30, 28, 28, 0.593));
+}
+/* Artists/Musicians */
+.musiciansMain{
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  color: #fff;
+  display:flex;
+ flex-flow: column nowrap;
+ align-items: center;
+ justify-content: space-between;
+  background-image: linear-gradient(to bottom right,rgba(189, 34, 224, 0.829),rgba(221, 24, 198, 0.563));
+  border-radius: 25px;
+}
+.musiciansMain img{
+  float: left;
+  width: 15vw;
+  border-radius: 30px;
+  vertical-align: middle;
+  padding: 10px 5px 10px 5px;
+}
+#luke {
+  float: right;
+}
+.musiciansMain div{
+  width: 93%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.829),rgba(0, 0, 0, 0.593));
+  border-radius: 25px;
+  padding: 5px 10px;
+  margin:20px 0px 5px 0px;
+  }
+.musiciansMain div:hover{
+  background-image: linear-gradient(to left,rgba(65, 63, 63, 0.829),rgba(30, 28, 28, 0.593));
+}
+.musiciansMain a{
+  text-decoration: none;
+  color: #fff;
+  text-decoration: underline;
+}
+/* Playlist */
+.playlistMain {
+  color: #fff;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display:flex;
+ flex-flow: column nowrap;
+ align-items: center;
+ justify-content: space-between;
+  background-image: linear-gradient(to bottom right,rgba(189, 34, 224, 0.829),rgba(221, 24, 198, 0.563));
+  border-radius: 25px;
+}
+.playlistMain div{
+  width: 93%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.829),rgba(0, 0, 0, 0.593));
+  border-radius: 25px;
+  padding: 5px 10px;
+  margin:20px 0px 5px 0px;
+}
+.playlistMain div:hover{
+  background-image: linear-gradient(to left,rgba(65, 63, 63, 0.829),rgba(30, 28, 28, 0.593));
+}
+/* About Us */
+.aboutUsMain {
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  color:#fff;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(to bottom right,rgba(189, 34, 224, 0.829),rgba(221, 24, 198, 0.563));
+  border-radius: 25px;
+}
+.aboutUsMain div{
+  width: 93%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.829),rgba(0, 0, 0, 0.593));
+  border-radius: 25px;
+  padding: 5px 10px;
+  margin:20px 0px 5px 0px;
+}
+.aboutUsMain div:hover ,
+.aboutUsDetail div:hover{
+  background-image: linear-gradient(to left,rgba(65, 63, 63, 0.829),rgba(30, 28, 28, 0.593));
+}
+.aboutUsDetail{
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  color:#fff;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(to bottom right,rgba(189, 34, 224, 0.829),rgba(221, 24, 198, 0.563));
+  border-radius: 25px;
+}
+.aboutUsDetail a{
+  color: #fff;
+  text-decoration: none;
+  text-decoration: underline;
+  font-style: italic;
+}
+.aboutUsDetail div{
+  width: 38%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.829),rgba(0, 0, 0, 0.593));
+  border-radius: 25px;
+  padding: 5px 10px;
+  margin:20px 0px 5px 0px;
+}
+#you{
+  float: left;
+  width: 15vw;
+  border-radius: 30px;
+  vertical-align: middle;
+  padding: 10px 5px 10px 5px;
+}
+#me {
+  float: right;
+  width: 15vw;
+  border-radius: 30px;
+  vertical-align: middle;
+  padding: 10px 5px 10px 5px;
+} 
+.footerAboutUs {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: rgb(93, 90, 90);
+  text-align: center;
+  padding: 5px 0;
+  background-image: linear-gradient(rgba(33, 32, 32, 0.758),rgba(39, 12, 12, 0.851));
+}
+/* media */
+@media only screen and (max-width: 951px) {
+ .contactsMain, .aboutUsDetail {
+  width: 90%;
+ }
+ .contactsMain div ,.aboutUsDetail div{
+  width: 90%;
+ }
+}
+@media only screen and (max-width: 500px) {
+ .main{
+  width: 90%;
+ }
+ .musiciansMain{
+  width: 90%;
+ }
+ .navigation ul{
+  left: 0;
+  top: 0;
+  padding: 0;
+ }
+}
+@media only screen and (max-width: 400px) {
+  .playlistMain{
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .aboutUsMain{
+    width: 90%;
+  }
+}
