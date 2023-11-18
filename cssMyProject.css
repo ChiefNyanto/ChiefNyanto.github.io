@@ -2,7 +2,7 @@ body{
    display: none;
     margin: 0;
     padding: 0;
-    background: url(../images/background2.png) no-repeat fixed center;
+    background: url(background2.png) no-repeat fixed center;
     background-size: cover;
 }
 .header {
